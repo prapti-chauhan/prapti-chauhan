@@ -126,7 +126,7 @@ def render(theme, days, login):
     """
     defs = mono.defs() + monob.defs()
     desc = (f"Bar chart of daily GitHub contributions for the last {len(days)} days. Total {total}, "
-            f"average {avg:.1f} per day, longest streak {longest} days, busiest weekday {busiest}.")
+            f"average {avg:.1f} per day, longest streak {longest} day{"s" if longest != 1 else ""}, busiest weekday {busiest}.")
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
             f'aria-labelledby="t d"><title id="t">Contribution frame timeline</title><desc id="d">{desc}</desc>'
             f'<style>{style}</style><defs>{defs}</defs>{"".join(out)}</svg>')
