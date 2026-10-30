@@ -105,7 +105,6 @@ class Prapti extends Developer {
   <img src="https://streak-stats.demolab.com?user=prapti-chauhan&hide_border=true&background=15150F&ring=1E9E96&fire=1E9E96&currStreakLabel=1E9E96&sideLabels=E9EDEE&currStreakNum=E9EDEE&sideNums=E9EDEE&dates=A7ADB5" />
 </p>
 
-<!-- 3D contribution graph: works after you add the GitHub Action (see profile-3d.yml) -->
 <p align="center">
   <img src="./profile-3d-contrib/profile-teal.svg" alt="3D contribution graph" width="100%" />
 </p>
