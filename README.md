@@ -98,6 +98,7 @@ class Prapti extends Developer {
 
 ---
 
+<!-- HIDDEN until public activity grows. Remove these comment markers to bring it back.
 ## 📊 GitHub stats
 
 <p align="center">
@@ -108,6 +109,7 @@ class Prapti extends Developer {
 <p align="center">
   <img src="./profile-3d-contrib/profile-teal.svg" alt="3D contribution graph" width="100%" />
 </p>
+-->
 
 ---
 
