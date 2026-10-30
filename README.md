@@ -11,7 +11,6 @@
 <p align="center">
   <a href="https://linkedin.com/in/prapti-chauhan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:prapti.chauhan@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white"/></a>
-  <a href="https://YOUR-PORTFOLIO-URL"><img src="https://img.shields.io/badge/Portfolio-1E9E96?style=for-the-badge&logo=vercel&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=prapti-chauhan&style=for-the-badge&color=1E9E96&label=PROFILE+VIEWS"/>
 </p>
 
