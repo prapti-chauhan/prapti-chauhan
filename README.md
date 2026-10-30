@@ -101,10 +101,6 @@ class Prapti extends Developer {
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=prapti-chauhan&show_icons=true&count_private=true&hide_border=true&bg_color=15150F&title_color=1E9E96&icon_color=1E9E96&text_color=E9EDEE" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prapti-chauhan&layout=compact&hide_border=true&bg_color=15150F&title_color=1E9E96&text_color=E9EDEE" />
-</p>
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=prapti-chauhan&hide_border=true&background=15150F&ring=1E9E96&fire=1E9E96&currStreakLabel=1E9E96&sideLabels=E9EDEE&currStreakNum=E9EDEE&sideNums=E9EDEE&dates=A7ADB5" />
 </p>
 
