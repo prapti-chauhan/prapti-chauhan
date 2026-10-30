@@ -1,36 +1,50 @@
-<img src="./assets/header.svg" width="100%" alt="Prapti Chauhan. Senior Flutter Developer, Fintech and Blockchain Apps. 4+ years, 30+ apps built, 10K+ users."/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Prapti Chauhan, Senior Flutter Engineer. A moving cursor peels her name back to show Flutter's debug-paint layout skeleton." src="assets/hero-light.svg" width="100%">
+</picture>
+
+<br>
+
+I build Flutter apps where a wrong tap costs someone real money: crypto wallets, UPI payouts, NFC cards that sign transactions without ever exposing a seed phrase. Four years, 30+ apps, and the biggest one runs for 10,000+ people.
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/inspector-dark.svg">
+  <img alt="Career shown as a Flutter widget tree. Selected nodes cycle through Atom Wallet, Kelestial Wallet, Dive Wallet, Freelance and two hackathon wins, with details for each." src="assets/inspector-light.svg" width="100%">
+</picture>
+
+```console
+$ flutter doctor --prapti
+Doctor summary (to see all details, hire me):
+[✓] Flutter         4+ yrs, stable channel, 30+ apps shipped
+[✓] Architecture    Clean Architecture · Bloc · Provider (and the GetX migration scars)
+[✓] Security        RSA key storage · Keystore / Keychain · Secure Storage · JWT
+[✓] Web3            WalletConnect · DApp browser · NFC hardware signing
+[✓] Firebase        Auth · Firestore · FCM · Crashlytics
+[✓] AI automation   n8n · OpenAI · RAG · Pinecone   (n8n Hackathon 2025 winner)
+[✓] Shipping        Play Store + App Store, zero critical bugs at launch
+[!] Availability
+    ✗ Not on a full-time contract right now. Freelance and full-time both welcome.
+
+• 1 issue found. Fastest fix: an email.
+```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/frames-dark.svg">
+  <img alt="My GitHub contributions for the last 91 days, drawn as a Flutter DevTools frame timeline. Rebuilt every day by a GitHub Action." src="assets/frames-light.svg" width="100%">
+</picture>
 
 <p align="center">
-  <a href="https://linkedin.com/in/prapti-chauhan"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;<a href="mailto:prapti.chauhan@outlook.com"><img src="https://img.shields.io/badge/Email-Say_hi-1E9E96?style=for-the-badge&logo=microsoftoutlook&logoColor=white"/></a>
+  <a href="mailto:prapti.chauhan@outlook.com"><b>prapti.chauhan@outlook.com</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/prapti-chauhan">LinkedIn</a>
+  &nbsp;·&nbsp;
+  Surat, IN (UTC+5:30)
 </p>
 
-<img src="./assets/about.svg" width="100%" alt="About me: Senior Flutter Developer in Surat, India. 4 years of experience, 30+ apps built. Focus on fintech, crypto wallets and app security, plus AI automation with n8n and RAG. Open to work."/>
-
-<img src="./assets/stack.svg" width="100%" alt="Tech stack: Flutter, Dart, Bloc, Provider, Clean Architecture, Firebase, REST APIs, RSA encryption, Secure Storage, Keystore and Keychain, JWT, non-custodial wallets, WalletConnect, NFC hardware wallets, n8n, OpenAI, RAG pipelines."/>
-
-<p align="center"><b>A few highlights from 30+ apps</b> · most client work lives in private repos, happy to walk through the architecture on a call</p>
-
-<p align="center">
-  <img src="./assets/project-atom.svg" width="49%" alt="Atom Wallet: non-custodial crypto and USDT wallet with UPI payments, bank withdrawals and fiat conversion. 10K+ users."/>&nbsp;<img src="./assets/project-kelestial.svg" width="49%" alt="Kelestial Wallet: turns a physical NFC card into a hardware wallet with no seed phrase exposure."/>
-</p>
-<p align="center">
-  <img src="./assets/project-dive.svg" width="49%" alt="DiveWallet: crypto wallet with send, receive, token swaps and DApp browsing, built on Bloc and Clean Architecture."/>&nbsp;<img src="./assets/project-mail.svg" width="49%" alt="AI Email Writing: suggests and writes emails with AI, monetized with AdMob."/>
-</p>
-
-<img src="./assets/impact.svg" width="100%" alt="Impact: about 40% faster feature delivery, 30% lower API latency, 3 production wallets led, 0 critical bugs at launch. Awards: Winner, n8n Hackathon 2025. Impact Award, AI Hackathon 2026."/>
-
-<img src="./assets/journey.svg" width="100%" alt="Journey: Flutter Trainee at BVM Infotech (2021-2022), Senior Flutter Engineer at Rain Infotech (2022-2026), Freelance Flutter Developer (2026-now)."/>
-
-<a href="mailto:prapti.chauhan@outlook.com"><img src="./assets/cta.svg" width="100%" alt="Have an app idea or a role in mind? Email me."/></a>
-
-<!-- HIDDEN until public activity grows. Remove these comment markers to bring it back.
-## 📊 GitHub stats
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=prapti-chauhan&hide_border=true&background=15150F&ring=1E9E96&fire=1E9E96&currStreakLabel=1E9E96&sideLabels=E9EDEE&currStreakNum=E9EDEE&sideNums=E9EDEE&dates=A7ADB5" />
-</p>
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-teal.svg" alt="3D contribution graph" width="100%" />
-</p>
--->
+<p align="center"><sub>
+No stat cards, no badge walls, no third-party widgets. Every graphic here is plain SVG generated by a small Python script:
+glyphs shaped with HarfBuzz and baked into paths, so the typography survives GitHub's image proxy, and the chart rebuilds itself daily.
+Source in <a href="scripts">/scripts</a>.
+</sub></p>
