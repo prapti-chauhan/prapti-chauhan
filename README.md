@@ -24,10 +24,9 @@ Doctor summary (to see all details, hire me):
 [✓] Firebase        Auth · Firestore · FCM · Crashlytics
 [✓] AI automation   n8n · OpenAI   (n8n Hackathon 2025 winner)
 [✓] Shipping        Play Store + App Store, zero critical bugs at launch
-[!] Availability
-    ✗ Not on a full-time contract right now. Freelance and full-time both welcome.
+[✓] Availability    Open to freelance projects and full-time roles
 
-• 1 issue found. Fastest fix: an email.
+• No issues found. Next step: an email.
 ```
 
 <picture>
