@@ -180,7 +180,7 @@ DETAILS = [
     (7, "Freelance", "independent since Jul 2026", [
         ("clients", "fintech · business", False),
         ("owns", "scoping · estimates · architecture", False),
-        ("alsoBuilds", "n8n · OpenAI · RAG · Pinecone", False),
+        ("alsoBuilds", "AI automation · n8n · OpenAI", False),
         ("status", "available", True),
     ]),
     (9, "N8nHackathon2025", "AI automation track", [
@@ -301,56 +301,10 @@ def inspector(theme_name):
 
 
 
-# ---------------------------------------------------------------- tap-to-inspect nodes
-
-NODES = [
-    ("bvm", 2, "BVMInfotech", "T", "trainee · 2021", "where it started", [
-        ("role", "Flutter Trainee", True),
-        ("period", "Aug 2021 to Mar 2022", False),
-        ("next", "RainInfotech, Apr 2022", False),
-    ]),
-    ("rain", 2, "RainInfotech", "S", "senior · 2022-26", "Senior Flutter Engineer, Apr 2022 to Jun 2026", [
-        ("productionWallets", "3  (architecture lead)", True),
-        ("architecture", "Clean Architecture · Bloc · Provider", False),
-        ("security", "RSA · Secure Storage · Keystore/Keychain · JWT", False),
-        ("mentored", "2-3 junior developers", False),
-        ("launchCriticalBugs", "0", True),
-    ]),
-] + [(name.lower(), 3 if "Wallet" in name else 2, name,
-      "W" if "Wallet" in name else ("F" if name == "Freelance" else "A"),
-      ROWS[ri][3], sub, props) for ri, name, sub, props in DETAILS]
-
-
-def node_card(theme_name, node):
-    t = THEMES[theme_name]
-    F = faces()
-    mono, monob = F["mono"], F["monob"]
-    _, _, name, _, _, sub, props = node
-    Hh = 150 + len(props) * 40
-    dx = 32
-    out = [f'<rect x="0.5" y="0.5" width="{W - 1}" height="{Hh - 1}" rx="14" fill="{t["panel"]}" stroke="{t["accent"]}"/>',
-           f'<rect x="0.5" y="0.5" width="4" height="{Hh - 1}" rx="2" fill="{t["accent"]}"/>',
-           mono.text("DETAILS", dx, 40, 12, fill=t["stroke"], tracking=0.08),
-           monob.text(name, dx, 80, 26, fill=t["ink"]),
-           mono.text(sub, dx + monob.width(name, 26) + 18, 80, 15, fill=t["stroke"]),
-           f'<line x1="{dx}" x2="{W - 32}" y1="102" y2="102" stroke="{t["dim"]}"/>']
-    for j, (key, val, hi) in enumerate(props):
-        py = 138 + j * 40
-        out.append(mono.text(key, dx, py, 15, fill=t["stroke"]))
-        out.append(mono.text(":", dx + 220, py, 15, fill=t["dim"]))
-        out.append((monob if hi else mono).text(val, dx + 238, py, 15, fill=t["accentText"] if hi else t["ink"]))
-        out.append(f'<line x1="{dx}" x2="{W - 32}" y1="{py + 15}" y2="{py + 15}" stroke="{t["faint"]}"/>')
-    desc = f"{name}, {sub}. " + "; ".join(f"{k}: {v}" for k, v, _ in props)
-    return svg_doc(W, Hh, f"{name} details", desc, "", "".join(out), mono.defs() + monob.defs())
-
-
 if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     for th in THEMES:
         (OUT / f"hero-{th}.svg").write_text(hero(th), encoding="utf-8")
         (OUT / f"inspector-{th}.svg").write_text(inspector(th), encoding="utf-8")
-        (OUT / "nodes").mkdir(exist_ok=True)
-        for node in NODES:
-            (OUT / "nodes" / f"{node[0]}-card-{th}.svg").write_text(node_card(th, node), encoding="utf-8")
     for p in sorted(OUT.rglob("*.svg")):
         print(p.name, f"{p.stat().st_size / 1024:.0f} KB")
