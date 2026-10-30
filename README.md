@@ -1,5 +1,5 @@
 <!-- Animated wave header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:15150F,50:167670,100:1E9E96&height=220&section=header&text=Prapti%20Chauhan&fontSize=60&fontColor=E9EDEE&animation=fadeIn&fontAlignY=38&desc=Senior%20Flutter%20Developer%20%E2%80%A2%20Fintech%20%26%20Blockchain&descAlignY=58&descSize=18" width="100%"/>
+<img src="./assets/header.svg" width="100%" alt="Prapti Chauhan, Senior Flutter Developer"/>
 
 <!-- Typing animation -->
 <p align="center">
@@ -120,4 +120,4 @@ class Prapti extends Developer {
   Let's build something secure and beautiful together. <a href="mailto:prapti.chauhan@outlook.com">Say hi 👋</a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E9E96,50:167670,100:15150F&height=120&section=footer" width="100%"/>
+<img src="./assets/footer.svg" width="100%"/>
