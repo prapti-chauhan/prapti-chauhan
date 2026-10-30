@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#15150F"/><stop offset="1" stop-color="#0F2A28"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#1E9E96" opacity="0.16"/></pattern>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif} .m{font-family:&quot;SF Mono&quot;,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.fade{animation:fade .7s ease-out both}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+</style>
+</defs>
+<rect x="1" y="1" width="1198" height="168" rx="16" fill="url(#bg)" stroke="#2A3532" stroke-width="1.5"/>
+<rect x="700" y="2" width="496" height="176" fill="url(#dots)"/><text x="60" y="78" class="s" font-size="34" font-weight="800" fill="#E9EDEE">Have an app idea or a role in mind?</text><text x="60" y="114" class="s" font-size="18" fill="#A7ADB5">Open to freelance Flutter projects and senior roles. Let's build something secure.</text><rect x="60" y="134" width="236" height="0" />
+</svg>

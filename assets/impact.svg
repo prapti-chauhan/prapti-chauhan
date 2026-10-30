@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="416" viewBox="0 0 1200 416">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#15150F"/><stop offset="1" stop-color="#0F2A28"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#1E9E96" opacity="0.16"/></pattern>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif} .m{font-family:&quot;SF Mono&quot;,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.fade{animation:fade .7s ease-out both}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+</style>
+</defs>
+<rect x="1" y="1" width="1198" height="414" rx="16" fill="url(#bg)" stroke="#2A3532" stroke-width="1.5"/>
+<text x="40" y="46" class="s" font-size="14" font-weight="700" letter-spacing="2.5" fill="#1E9E96">IMPACT</text><g class="nf" style="animation-delay:0.00s"><rect x="40" y="70" width="272" height="150" rx="12" fill="#0B0F0E" stroke="#2A3532"/><text x="64" y="130" class="s" font-size="46" font-weight="800" fill="#1E9E96">~40%</text><text x="64" y="166" class="s" font-size="16" font-weight="700" fill="#E9EDEE">faster feature delivery</text><text x="64" y="192" class="s" font-size="14" fill="#A7ADB5">GetX to modular Provider</text></g><g class="nf" style="animation-delay:0.12s"><rect x="322" y="70" width="272" height="150" rx="12" fill="#0B0F0E" stroke="#2A3532"/><text x="346" y="130" class="s" font-size="46" font-weight="800" fill="#1E9E96">30%</text><text x="346" y="166" class="s" font-size="16" font-weight="700" fill="#E9EDEE">lower API latency</text><text x="346" y="192" class="s" font-size="14" fill="#A7ADB5">batching + caching</text></g><g class="nf" style="animation-delay:0.24s"><rect x="605" y="70" width="272" height="150" rx="12" fill="#0B0F0E" stroke="#2A3532"/><text x="629" y="130" class="s" font-size="46" font-weight="800" fill="#1E9E96">3</text><text x="629" y="166" class="s" font-size="16" font-weight="700" fill="#E9EDEE">production wallets led</text><text x="629" y="192" class="s" font-size="14" fill="#A7ADB5">Clean Architecture + Bloc</text></g><g class="nf" style="animation-delay:0.36s"><rect x="888" y="70" width="272" height="150" rx="12" fill="#0B0F0E" stroke="#2A3532"/><text x="912" y="130" class="s" font-size="46" font-weight="800" fill="#1E9E96">0</text><text x="912" y="166" class="s" font-size="16" font-weight="700" fill="#E9EDEE">critical bugs at launch</text><text x="912" y="192" class="s" font-size="14" fill="#A7ADB5">Play Store &amp; App Store</text></g><text x="40" y="272" class="s" font-size="14" font-weight="700" letter-spacing="2.5" fill="#1E9E96">AWARDS</text><g class="nf" style="animation-delay:0.50s"><rect x="40" y="292" width="555" height="96" rx="12" fill="#0B0F0E" stroke="#167670"/>
+<circle cx="88" cy="340" r="24" fill="#1B2F2C" stroke="#E8C27A" stroke-width="2"/><path d="M88 326 l4 9 l10 1 l-7 7 l2 10 l-9 -5 l-9 5 l2 -10 l-7 -7 l10 -1z" fill="#E8C27A"/>
+<text x="128" y="324" class="s" font-size="12" font-weight="700" letter-spacing="2" fill="#E8C27A">WINNER</text>
+<text x="128" y="350" class="s" font-size="20" font-weight="800" fill="#E9EDEE">n8n Hackathon 2025</text>
+<text x="128" y="374" class="s" font-size="14" fill="#A7ADB5">AI insurance claims pipeline</text></g><g class="nf" style="animation-delay:0.65s"><rect x="605" y="292" width="555" height="96" rx="12" fill="#0B0F0E" stroke="#167670"/>
+<circle cx="653" cy="340" r="24" fill="#1B2F2C" stroke="#E8C27A" stroke-width="2"/><path d="M653 326 l4 9 l10 1 l-7 7 l2 10 l-9 -5 l-9 5 l2 -10 l-7 -7 l10 -1z" fill="#E8C27A"/>
+<text x="693" y="324" class="s" font-size="12" font-weight="700" letter-spacing="2" fill="#E8C27A">IMPACT AWARD</text>
+<text x="693" y="350" class="s" font-size="20" font-weight="800" fill="#E9EDEE">AI Hackathon 2026</text>
+<text x="693" y="374" class="s" font-size="14" fill="#A7ADB5">AI newsletter automation with CRM integration</text></g>
+</svg>
