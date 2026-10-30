@@ -1,17 +1,14 @@
-<!-- Animated wave header -->
 <img src="./assets/header.svg" width="100%" alt="Prapti Chauhan, Senior Flutter Developer"/>
 
 <!-- Typing animation -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1E9E96&center=true&vCenter=true&width=600&lines=I+build+secure+Flutter+apps+%F0%9F%93%B1;Crypto+wallets+used+by+10K%2B+people+%F0%9F%94%90;Clean+Architecture+%2B+Bloc+enthusiast+%F0%9F%A7%B1;Hackathon+winner+%7C+AI+automation+%F0%9F%A4%96;Open+to+freelance+%26+full-time+roles+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1E9E96&center=true&vCenter=true&width=600&lines=I+build+secure+Flutter+apps+%F0%9F%93%B1;30%2B+Flutter+apps+built+%F0%9F%9A%80;Crypto+wallets+used+by+10K%2B+people+%F0%9F%94%90;Clean+Architecture+%2B+Bloc+enthusiast+%F0%9F%A7%B1;Hackathon+winner+%7C+AI+automation+%F0%9F%A4%96;Open+to+freelance+%26+full-time+roles+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/prapti-chauhan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:prapti.chauhan@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=prapti-chauhan&style=for-the-badge&color=1E9E96&label=PROFILE+VIEWS"/>
+  <a href="https://linkedin.com/in/prapti-chauhan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;<a href="mailto:prapti.chauhan@outlook.com"><img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white"/></a>
 </p>
 
 ---
@@ -22,7 +19,8 @@
 class Prapti extends Developer {
   final String role       = "Senior Flutter Developer";
   final String location   = "Surat, India 🇮🇳";
-  final int    experience = 4; // years, and counting
+  final int    experience = 4;  // years
+  final int    appsBuilt  = 30; // and counting 🚀
   final List<String> focus = ["Fintech", "Crypto Wallets", "App Security"];
   final List<String> extras = ["AI Automation", "n8n", "RAG"];
 
@@ -42,18 +40,14 @@ class Prapti extends Developer {
   <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,androidstudio,vscode,git,github,figma,postman&theme=dark" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Bloc-1E9E96?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Provider-1E9E96?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Clean_Architecture-1E9E96?style=flat-square"/>
-  <img src="https://img.shields.io/badge/WalletConnect-3B99FC?style=flat-square&logo=walletconnect&logoColor=white"/>
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Bloc-1E9E96?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/Provider-1E9E96?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/Clean_Architecture-1E9E96?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/WalletConnect-3B99FC?style=flat-square&logo=walletconnect&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square"/>
 </p>
 
 ---
 
 ## 📱 Featured apps
+
+I've worked on **30+ Flutter apps** across fintech, crypto and business products. A few highlights:
 
 <table>
   <tr>
@@ -82,14 +76,15 @@ class Prapti extends Developer {
   </tr>
 </table>
 
-> 🔒 Most of my client work lives in private repos. Happy to walk through the architecture on a call.
+> 🔒 These are a handful of the 30+ apps I've worked on. Most client work lives in private repos, so I'm happy to walk through the architecture on a call.
 
 ---
 
 ## 🏆 Wins & impact
 
-| | |
+| Impact | How |
 |---|---|
+| 📱 **30+ apps** | Built across fintech, crypto wallets and business products |
 | ⚡ **~40% faster** feature delivery | Rebuilt a wallet's state layer from GetX to modular Provider |
 | 📉 **30% lower** API latency | Request batching, caching and smarter state handling |
 | 🧱 **3 production wallets** | Led architecture, shipped with zero critical bugs at launch |
@@ -110,11 +105,7 @@ class Prapti extends Developer {
 </p>
 -->
 
----
-
 <p align="center">
   <b>💼 Open to freelance Flutter projects & senior roles</b><br/>
   Let's build something secure and beautiful together. <a href="mailto:prapti.chauhan@outlook.com">Say hi 👋</a>
 </p>
-
-<img src="./assets/footer.svg" width="100%"/>

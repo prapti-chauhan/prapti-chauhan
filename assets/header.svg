@@ -1,27 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#15150F"/>
-      <stop offset="0.55" stop-color="#167670"/>
-      <stop offset="1" stop-color="#1E9E96"/>
+      <stop offset="1" stop-color="#0F2A28"/>
     </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1E9E96" opacity="0.18"/>
+    </pattern>
     <style>
-      .t{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#E9EDEE}
-      .name{font-size:64px;font-weight:800;letter-spacing:1px;opacity:0;animation:up 1s ease-out .2s forwards}
-      .sub{font-size:22px;font-weight:500;opacity:0;animation:up 1s ease-out .7s forwards}
-      .w1{animation:drift 9s ease-in-out infinite alternate}
-      .w2{animation:drift 13s ease-in-out infinite alternate-reverse}
-      @keyframes up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
-      @keyframes drift{from{transform:translateX(0)}to{transform:translateX(-120px)}}
+      .t{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+      .name{font-size:62px;font-weight:800;fill:#E9EDEE}
+      .sub{font-size:22px;font-weight:500;fill:#A7ADB5}
+      .num{font-size:30px;font-weight:800;fill:#1E9E96}
+      .lbl{font-size:15px;font-weight:600;fill:#A7ADB5;letter-spacing:1.5px}
+      .a1{opacity:0;animation:in .8s ease-out .1s forwards}
+      .a2{opacity:0;animation:in .8s ease-out .4s forwards}
+      .a3{opacity:0;animation:in .8s ease-out .7s forwards}
+      .bar{transform-origin:0 0;transform:scaleY(0);animation:grow .7s ease-out forwards}
+      @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes grow{to{transform:scaleY(1)}}
     </style>
   </defs>
-  <rect width="1200" height="260" fill="url(#g)"/>
-  <g class="w2" opacity="0.25">
-    <path d="M0 205 C150 175 300 235 450 205 S750 175 900 205 S1200 235 1350 205 L1350 260 L0 260Z" fill="#E9EDEE"/>
+  <rect width="1200" height="280" rx="14" fill="url(#g)"/>
+  <rect x="620" width="580" height="280" fill="url(#dots)"/>
+  <rect x="70" y="62" width="6" height="156" rx="3" fill="#1E9E96" class="bar"/>
+  <g class="a1">
+    <text x="100" y="118" class="t name">Prapti Chauhan</text>
   </g>
-  <g class="w1" opacity="0.12">
-    <path d="M0 220 C200 250 350 190 550 220 S850 250 1050 220 S1300 190 1400 220 L1400 260 L0 260Z" fill="#E9EDEE"/>
+  <g class="a2">
+    <text x="102" y="158" class="t sub">Senior Flutter Developer  ·  Fintech &amp; Blockchain Apps</text>
   </g>
-  <text x="600" y="118" text-anchor="middle" class="t name">Prapti Chauhan</text>
-  <text x="600" y="162" text-anchor="middle" class="t sub">Senior Flutter Developer  •  Fintech &amp; Blockchain</text>
+  <g class="a3">
+    <text x="102" y="212" class="t"><tspan class="num">4+</tspan><tspan class="lbl" dx="10">YEARS</tspan><tspan class="num" dx="48">30+</tspan><tspan class="lbl" dx="10">APPS BUILT</tspan><tspan class="num" dx="48">10K+</tspan><tspan class="lbl" dx="10">USERS</tspan></text>
+  </g>
 </svg>
